@@ -1,4 +1,4 @@
-const Producto = require('../../../../models/producto');
+const Producto = require('../../../../models/Producto');
 module.exports = async ({query: {pageSize,pageIndex,search}}) => {
   try {
     const result = {};

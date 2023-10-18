@@ -1,4 +1,4 @@
-const Producto = require('../../../../models/producto');
+const Producto = require('../../../../models/Producto');
 module.exports = async ({params: {id}}) => {
   try {
     let producto = await Producto.findById(id);

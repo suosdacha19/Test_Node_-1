@@ -1,4 +1,4 @@
-const Producto = require('../../../../models/producto');
+const Producto = require('../../../../models/Producto');
 module.exports = async ({params: {id}}) => {
   try {
     await Producto.findOneAndRemove({ _id: id });
