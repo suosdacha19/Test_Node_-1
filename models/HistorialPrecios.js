@@ -15,4 +15,4 @@ const HistorialPrecioSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('historialprecios', HistorialPrecioSchema);
+module.exports = mongoose.models.HistorialPrecios || mongoose.model('HistorialPrecios', HistorialPrecioSchema);
